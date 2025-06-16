@@ -1,6 +1,6 @@
 # Simulating Translucence in Human Skin
 
-![Translucence skin rendering preview]("https://github.com/Noctiluce/skin-texture/blob/master/images/skin.gif")
+<p align="center"><img src="https://github.com/Noctiluce/skin-texture/blob/master/images/skin.gif" alt="Animated gif" width="100%" /></p>
 
 This project demonstrates a custom **real-time rendering pipeline** designed to simulate the **translucence of human skin**.  
 Using **OpenGL shaders** and **C++**, it performs **subsurface light transport calculations** to approximate how light diffuses through skin layers, yielding a soft, realistic appearance.
