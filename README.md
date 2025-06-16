@@ -1,17 +1,32 @@
-<p align="center"><h1>Skin texture</h1></p>
+# Simulating Translucence in Human Skin
 
+![Translucence skin rendering preview]("https://github.com/Noctiluce/skin-texture/blob/master/images/skin.gif")
 
-This program allows to visualize the effect of subsurface scattering and the generation of procedural textures on hands.
+This project demonstrates a custom **real-time rendering pipeline** designed to simulate the **translucence of human skin**.  
+Using **OpenGL shaders** and **C++**, it performs **subsurface light transport calculations** to approximate how light diffuses through skin layers, yielding a soft, realistic appearance.
 
-Written in C ++ and using the OpenGL API.
+## 🔹Features
+- **Translucence Model:** Approximates **subsurface scattering** to capture softness and depth in skin.
+- **Custom Shaders:** Implemented in **GLSL**, integrated into a custom pipeline.
+- **C++ Core:** Built from scratch to handle geometry, materials, and lighting efficiently.
+- **Procedural Texturing:** Combines base texture with scattering effects in real time.
 
-## Features
-- Fast sub surface scatering
-- Procedural skin texture
-- God rays
+## 🔹Tech Stack
+- **C++**, **OpenGL**, **GLSL**
+- Custom rendering pipeline (forward rendering)
+
+## 🔹About
+This renderer highlights my ability to:
+- Develop low-level rendering techniques.
+- Integrate custom shaders and C++ code efficiently.
+- Handle GPU-side computations and data structures.
+
+## 🔹See more
+➥ [Portfolio](https://noctiluce.github.io)  
+➥ [LinkedIn](https://www.linkedin.com/in/felix-rollet/)  
+
 
 ## Building
-#### On Linux
 **Prerequisite**: CMake
 
 To build this program, download the source code using ``git clone https://github.com/Noctiluce/Simulating-Translucence-in-Human-Skin`` or directly the zip archive.
@@ -26,8 +41,6 @@ make -j
 ./program
 ```
 
-#### On Windows
-[instructions coming soon]
 
 
 ## Gallery
@@ -36,5 +49,3 @@ make -j
 <a href="https://www.youtube.com/watch?v=MlTtGBSUrVE" target="_blank"><img src="https://github.com/Noctiluce/skin-texture/blob/master/images/youtube_skin.PNG" 
 alt="Skin Texture" width="100%" height="auto" border="10" /></a>
 
-#### Preview
-<p align="center"><img src="https://github.com/Noctiluce/skin-texture/blob/master/images/skin.gif" alt="Animated gif" width="100%" /></p>
