@@ -14,7 +14,7 @@ Written in C ++ and using the OpenGL API.
 #### On Linux
 **Prerequisite**: CMake
 
-To build this program, download the source code using ``git clone https://github.com/Vulpinii/skin-texture`` or directly the zip archive.
+To build this program, download the source code using ``git clone https://github.com/Noctiluce/Simulating-Translucence-in-Human-Skin`` or directly the zip archive.
 Then run the `` launch.sh`` shell script.
 
 You can do it manually by following these commands:
